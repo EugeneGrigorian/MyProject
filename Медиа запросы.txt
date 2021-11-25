@@ -1,0 +1,21 @@
+media queries в файле css:
+
+@media (max-width: 800px) {
+
+}
+
+или
+
+@media (min-width: 801px) and (max-width:768px) {
+
+}
+
+
+Гибкие изображения:
+img {
+   max-width: 100%;
+   height: auto;
+   width: auto; /* ie8 */
+}
+
+
